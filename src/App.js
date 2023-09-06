@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import "./App.css";
+
+import { Toaster } from "react-hot-toast";
+import { Router } from "./frontend/routes";
+import { Navbar } from "./frontend/components";
+import {Footer} from "./frontend/components";
+import ScrollToTop from "./frontend/components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Toaster position="bottom-right" reverseOrder={false} />
+      <Router />
+      <Footer />
+      <ScrollToTop />
     </div>
   );
 }
