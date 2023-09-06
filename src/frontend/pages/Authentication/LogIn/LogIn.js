@@ -15,8 +15,8 @@ function LogIn() {
   });
 
   const guestUserDetails = {
-    email: "sumedhk12@gmail.com",
-    password: "password",
+    email: "Bennetthammock@gmail.com",
+    password: "test",
   };
 
   const loginFormInputHandler = (e) => {
