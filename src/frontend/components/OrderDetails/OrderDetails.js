@@ -57,7 +57,7 @@ const OrderDetails = () => {
         </div>
         <div className="item grand-total">
           <div>Grand Total</div>
-          <div>$ {totalCheckoutAmount}</div>
+          <div>$ {totalCheckoutAmount.toFixed(2)}</div>
         </div>
       </div>
       <div className="title">Deliver To</div>
