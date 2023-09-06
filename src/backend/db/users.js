@@ -20,10 +20,10 @@ export const users = [
       {
         _id: uuid(),
         name: "Bennett Hammock",
-        street: "502 Regency",
-        city: "Fayetteville",
+        street: "501 Fake Street",
+        city: "Coding Town",
         state: "North Carolina",
-        zipcode: '28314',
+        zipcode: '22456',
         country: 'United States',
         mobile: '4075950745',
     },
