@@ -15,7 +15,7 @@ function Slider() {
       setSelectedImage((selectedImage) =>
         selectedImage < 1 ? selectedImage + 1 : 0
       );
-    }, 10000);
+    }, 5000);
   }, []);
 
   return (
