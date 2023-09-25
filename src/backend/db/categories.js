@@ -1,10 +1,6 @@
 
 import { v4 as uuid } from "uuid";
-
-/**
- * Category Database can be added here.
- * You can add category of your wish with different attributes
- * */
+//mock Db for now
 
 export const categories = [
   {

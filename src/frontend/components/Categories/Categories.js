@@ -46,11 +46,6 @@ const Categories = () => {
       <div className="category-outer-container">
         <h1>Top categories</h1>
         <div className="section-text-headings">
-          {/* <p>
-            Plants are a great addition to our homes and life for both their
-            physical and psychological benefits.
-          </p>
-          <p>Explore Plantique’s curated list of green and lovely plants.</p> */}
         </div>
         <div className="category-cards">
           {productState?.allCategories?.map(({ _id, img, categoryName }) => (
