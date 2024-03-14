@@ -1,3 +1,8 @@
+# Tech
+This is an E-Commerce web app build with Node and React, it has multiple products sorted into different categories with unique tags for item filtering. It can store user data including shopping cart and address so a logged in user can return to their previous shopping session.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
