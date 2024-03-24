@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 const slides = [
   "/images/slider/slider-1.jpg",
+  "/images/slider/slider-2.jpg",
   "/images/slider/slider-4.jpg",
 ];
 
