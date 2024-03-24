@@ -12,7 +12,7 @@ function Footer () {
     <>
       <div className="footer">
         <div className="footer-left">
-          <h2>Sports Shop</h2>
+          <h2>Dice Drinks and Duds</h2>
           <div className="socials">
             <Link to="https://github.com/Bhammock33">
               <p>

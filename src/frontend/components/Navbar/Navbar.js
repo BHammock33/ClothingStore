@@ -36,7 +36,7 @@ function Navbar () {
       <NavLink to="/">
         <div className="nav-left">
           {/* <img src="/images/home.png" alt="Plantique-logo" /> */}
-          <h3>Sports Shop</h3>
+          <h3>Dice Drinks and Duds</h3>
           {/* <span className="app-name">Plantique</span> */}
         </div>
       </NavLink>
