@@ -51,7 +51,7 @@ export const products = [
     _id: uuid(),
     title: "Wicked Weed F Shirt",
     imgSrc:
-      "/images/wicked.png",
+      "/images/beer/wicked.png",
     description:
       "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
     price: 24.99,
@@ -66,7 +66,7 @@ export const products = [
     _id: uuid(),
     title: "Das Boot!",
     imgSrc:
-        "/images/bootBetter.jpeg",
+        "/images/beer/bootBetter.jpeg",
     description:
         "Can you complete the boot challenge! Don't forget about the bubble!",
     price: 21.99,
@@ -81,7 +81,7 @@ export const products = [
     _id: uuid(),
     title: "Players Handbook",
     imgSrc:
-        "/images/players.jpeg",
+        "/images/DnD/players.jpeg",
     description:
         "Your go to book to building your DnD character",
     price: 44.99,
@@ -96,7 +96,7 @@ export const products = [
     _id: uuid(),
     title: "Dungeon Masters Guide",
     imgSrc:
-        "/images/DmGuide.png",
+        "/images/DnD/DmGuide.png",
     description:
         "Everything you need to start your own Dungeon and Dragons Game",
     price: 49.99,
@@ -109,14 +109,14 @@ export const products = [
   },//5
   {
     _id: uuid(),
-    title: "Wicked Weed F Shirt",
+    title: "Craft Beer Tasting Journal",
     imgSrc:
-        "/images/wicked.png",
+        "/images/beer/journal.jpg",
     description:
-        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
-    price: 24.99,
-    updatedPrice: 24.99,
-    starRating: 3.8,
+        "Hardcover craft beer tasting journal with space to record tasting notes, ratings, and impressions. Includes helpful tips for beer tasting.",
+    price: 10.99,
+    updatedPrice: 14.99,
+    starRating: 4.8,
     size: "Regular",
     inStock: true,
     fastDelivery: true,
@@ -124,48 +124,48 @@ export const products = [
   },
   {
     _id: uuid(),
-    title: "Wicked Weed F Shirt",
+    title: "Craft Beer Bottle Opener",
     imgSrc:
-        "/images/wicked.png",
+        "/images/beer/opener.jpg",
     description:
-        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
-    price: 24.99,
-    updatedPrice: 24.99,
+        "Stainless steel craft beer bottle opener with a sleek design. Features a comfortable grip and built-in magnet for easy storage on the fridge.",
+    price: 9.99,
+    updatedPrice: 5.99,
     starRating: 3.8,
     size: "Regular",
     inStock: true,
     fastDelivery: true,
-    category: "Hockey",
+    category: "Craft",
   },
   {
     _id: uuid(),
-    title: "Wicked Weed F Shirt",
+    title: "Home Brewing Starter Kit",
     imgSrc:
-        "/images/wicked.png",
+        "/images/beer/brewKit.png",
     description:
-        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
-    price: 24.99,
-    updatedPrice: 24.99,
-    starRating: 3.8,
+        "Complete homebrewing starter kit including fermenter, airlock, brewing ingredients, and step-by-step instructions. Perfect for beginners.",
+    price: 84.99,
+    updatedPrice: 79.99,
+    starRating: 4.3,
     size: "Regular",
     inStock: true,
     fastDelivery: true,
-    category: "Football",
+    category: "Craft",
   },
   {
     _id: uuid(),
-    title: "Wicked Weed F Shirt",
+    title: "Craft Beer Glass Set",
     imgSrc:
-        "/images/wicked.png",
+        "/images/beer/glasses.jpg",
     description:
-        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
-    price: 24.99,
+        "Set of four assorted craft beer glasses suitable for different styles of beer",
+    price: 29.99,
     updatedPrice: 24.99,
     starRating: 3.8,
     size: "Regular",
     inStock: true,
     fastDelivery: true,
-    category: "Baseball",
+    category: "Craft",
   },
 
 ];
