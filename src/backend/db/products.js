@@ -66,10 +66,10 @@ export const products = [
     _id: uuid(),
     title: "Das Boot!",
     imgSrc:
-        "/images/bootBetter.png",
+        "/images/bootBetter.jpeg",
     description:
         "Can you complete the boot challenge! Don't forget about the bubble!",
-    price: 15.99,
+    price: 21.99,
     updatedPrice: 20.00,
     starRating: 4.5,
     size: "Regular",
@@ -85,7 +85,7 @@ export const products = [
     description:
         "Your go to book to building your DnD character",
     price: 44.99,
-    updatedPrice: 44.99,
+    updatedPrice: 40.99,
     starRating: 4.8,
     size: "Regular",
     inStock: true,
@@ -107,5 +107,65 @@ export const products = [
     fastDelivery: true,
     category: "DnD",
   },//5
+  {
+    _id: uuid(),
+    title: "Wicked Weed F Shirt",
+    imgSrc:
+        "/images/wicked.png",
+    description:
+        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
+    price: 24.99,
+    updatedPrice: 24.99,
+    starRating: 3.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
+  {
+    _id: uuid(),
+    title: "Wicked Weed F Shirt",
+    imgSrc:
+        "/images/wicked.png",
+    description:
+        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
+    price: 24.99,
+    updatedPrice: 24.99,
+    starRating: 3.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Hockey",
+  },
+  {
+    _id: uuid(),
+    title: "Wicked Weed F Shirt",
+    imgSrc:
+        "/images/wicked.png",
+    description:
+        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
+    price: 24.99,
+    updatedPrice: 24.99,
+    starRating: 3.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Football",
+  },
+  {
+    _id: uuid(),
+    title: "Wicked Weed F Shirt",
+    imgSrc:
+        "/images/wicked.png",
+    description:
+        "Bella + Canvas Triblend Collection Color: Neon Green Feminine sizing 50% Polyester, 25% cotton, 25% Rayon",
+    price: 24.99,
+    updatedPrice: 24.99,
+    starRating: 3.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
 
 ];
