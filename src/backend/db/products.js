@@ -306,7 +306,7 @@ export const products = [
     _id: uuid(),
     title: "Team Flag",
     imgSrc:
-        "/images/football/flag.jpg",
+        "/images/football/bucsFlag.jpg",
     description:
         "Large Carolina Hurricanes team flag suitable for displaying indoors or outdoors. Made of durable polyester with grommets for easy hanging.",
     price: 29.99,
@@ -441,7 +441,7 @@ export const products = [
     _id: uuid(),
     title: "Tampa Bay Rays Ball Cap",
     imgSrc:
-        "/images/hockey/raysCap.jpg",
+        "/images/baseball/raysCap.jpg",
     description:
         "Adjustable Tampa Bay Rays baseball cap featuring the team logo embroidered on the front. Made of durable cotton twill with a curved brim.",
     price: 20.99,
