@@ -23,5 +23,10 @@ export const categories = [
     img: "/images/categories/craftBeer.png",
     categoryName: "Craft",
   },
+  {
+    _id: uuid(),
+    img: "/images/categories/DnD.png",
+    categoryName: "DnD",
+  },
  
 ];

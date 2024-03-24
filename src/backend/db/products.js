@@ -61,5 +61,51 @@ export const products = [
     inStock: true,
     fastDelivery: true,
     category: "Craft",
-  }, //5
+  },
+  {
+    _id: uuid(),
+    title: "Das Boot!",
+    imgSrc:
+        "/images/bootBetter.png",
+    description:
+        "Can you complete the boot challenge! Don't forget about the bubble!",
+    price: 15.99,
+    updatedPrice: 20.00,
+    starRating: 4.5,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Craft",
+  },
+  {
+    _id: uuid(),
+    title: "Players Handbook",
+    imgSrc:
+        "/images/players.jpeg",
+    description:
+        "Your go to book to building your DnD character",
+    price: 44.99,
+    updatedPrice: 44.99,
+    starRating: 4.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },
+  {
+    _id: uuid(),
+    title: "Dungeon Masters Guide",
+    imgSrc:
+        "/images/DmGuide.png",
+    description:
+        "Everything you need to start your own Dungeon and Dragons Game",
+    price: 49.99,
+    updatedPrice: 39.99,
+    starRating: 5.0,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },//5
+
 ];
