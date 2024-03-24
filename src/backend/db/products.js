@@ -49,7 +49,7 @@ export const products = [
   }, //4
   {
     _id: uuid(),
-    title: "Wicked Weed F Shirt",
+    title: "Wicked Weed Shirt(f)",
     imgSrc:
       "/images/beer/wicked.png",
     description:
@@ -120,7 +120,7 @@ export const products = [
     size: "Regular",
     inStock: true,
     fastDelivery: true,
-    category: "Baseball",
+    category: "Craft",
   },
   {
     _id: uuid(),
@@ -167,5 +167,306 @@ export const products = [
     fastDelivery: true,
     category: "Craft",
   },
+  {
+    _id: uuid(),
+    title: "Carolina Hurricanes Replica Jersey",
+    imgSrc:
+        "/images/hockey/jersey.jpg",
+    description:
+        "Officially licensed Carolina Hurricanes replica jersey with the team logo and colors. Made of breathable fabric for comfort during game days or watching at home",
+    price: 119.99,
+    updatedPrice: 119.99,
+    starRating: 4.5,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Hockey",
+  },
+  {
+    _id: uuid(),
+    title: "Carolina Hurricanes Logo Cap",
+    imgSrc:
+        "/images/hockey/cap.jpg",
+    description:
+        "Adjustable Carolina Hurricanes cap featuring the team logo embroidered on the front. Made of durable cotton twill with a curved brim for a classic look.",
+    price: 24.99,
+    updatedPrice: 19.99,
+    starRating: 4.0,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Hockey",
+  },
+  {
+    _id: uuid(),
+    title: "Sherpa Blanket",
+    imgSrc:
+        "/images/hockey/blanket.jpg",
+    description:
+        "Cozy Carolina Hurricanes sherpa blanket featuring the team logo and colors. Perfect for keeping warm during chilly game nights or lounging on the couch",
+    price: 39.99,
+    updatedPrice: 44.99,
+    starRating: 4.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Hockey",
+  },
+  {
+    _id: uuid(),
+    title: "Team Flag",
+    imgSrc:
+        "/images/hockey/flag.jpg",
+    description:
+        "Large Carolina Hurricanes team flag suitable for displaying indoors or outdoors. Made of durable polyester with grommets for easy hanging.",
+    price: 29.99,
+    updatedPrice: 24.99,
+    starRating: 4.2,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Hockey",
+  },
+  {
+    _id: uuid(),
+    title: "Carolina Hurricanes Stainless Steel Tumbler",
+    imgSrc:
+        "/images/hockey/cup.jpg",
+    description:
+        " Insulated stainless steel tumbler featuring the Carolina Hurricanes logo. Keeps beverages hot or cold for hours, perfect for enjoying drinks while watching the game",
+    price: 32.99,
+    updatedPrice: 34.99,
+    starRating: 4.7,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Hockey",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Buccaneers Tailgate Chair",
+    imgSrc:
+        "/images/football/chair.jpg",
+    description:
+        "Folding Tampa Bay Buccaneers tailgate chair featuring the team logo and colors. Comes with a built-in cup holder and carrying bag for easy transportation.",
+    price: 49.99,
+    updatedPrice: 44.99,
+    starRating: 4.3,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: false,
+    category: "Football",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Buccaneers Vintage T-Shirt",
+    imgSrc:
+        "/images/football/vShirt.jpg",
+    description:
+        "Retro-style Tampa Bay Buccaneers t-shirt with a distressed team logo for a vintage look. Made of soft, comfortable cotton fabric.",
+    price: 29.99,
+    updatedPrice: 24.99,
+    starRating: 4.8,
+    size: "Regular",
+    inStock: false,
+    fastDelivery: true,
+    category: "Football",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Buccaneers Ceramic Mug",
+    imgSrc:
+        "/images/football/mug.jpg",
+    description:
+        "Ceramic Tampa Bay Buccaneers mug featuring the team logo. Perfect for enjoying your favorite hot beverage while showing team pride.",
+    price: 14.99,
+    updatedPrice: 9.99,
+    starRating: 3.2,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Football",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Buccaneers Fleece Throw Blanket",
+    imgSrc:
+        "/images/football/bucsBlanket.jpg",
+    description:
+        "Cozy Tampa Bay Buccaneers fleece throw blanket featuring the team logo and colors. Ideal for staying warm while watching games at home or at the stadium.",
+    price: 49.99,
+    updatedPrice: 40.99,
+    starRating: 5.0,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Football",
+  },
+  {
+    _id: uuid(),
+    title: "Team Flag",
+    imgSrc:
+        "/images/football/flag.jpg",
+    description:
+        "Large Carolina Hurricanes team flag suitable for displaying indoors or outdoors. Made of durable polyester with grommets for easy hanging.",
+    price: 29.99,
+    updatedPrice: 24.99,
+    starRating: 4.2,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Football",
+  },
+  {
+    _id: uuid(),
+    title: "Dungeons and Dragons DM Screen",
+    imgSrc:
+        "/images/DnD/dmScreen.png",
+    description:
+        "Sturdy, three-panel Dungeon Master's screen featuring essential reference tables, charts, and artwork to streamline gameplay. Helps Dungeon Masters manage encounters, track initiative, and keep game secrets hidden.",
+    price: 24.99,
+    updatedPrice: 24.99,
+    starRating: 4.4,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },
+  {
+    _id: uuid(),
+    title: "Dungeons and Dragons Dice Set",
+    imgSrc:
+        "/images/DnD/dice.jpg",
+    description:
+        "High-quality polyhedral dice set designed for Dungeons & Dragons gameplay. Includes all the dice needed for rolling character stats, casting spells, and resolving battles.",
+    price: 19.99,
+    updatedPrice: 10.00,
+    starRating: 4.4,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },
+  {
+    _id: uuid(),
+    title: "Dungeons and Dragons Art and Arcana Book",
+    imgSrc:
+        "/images/DnD/artBook.jpg",
+    description:
+        "Lavishly illustrated book exploring the history and art of Dungeons & Dragons. Features concept art, behind-the-scenes stories, and insights into the game's evolution.",
+    price: 45.99,
+    updatedPrice: 39.99,
+    starRating: 4.7,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },
+  {
+    _id: uuid(),
+    title: "Dungeons and Dragons Miniatures Starter Set",
+    imgSrc:
+        "/images/DnD/minis.jpg",
+    description:
+        "Starter set of Dungeons & Dragons miniatures, featuring a variety of pre-painted figures representing heroes, monsters, and NPCs. Perfect for enhancing tabletop gameplay.",
+    price: 35.99,
+    updatedPrice: 29.99,
+    starRating: 4.6,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },
+  {
+    _id: uuid(),
+    title: "Dungeons and Dragons Tavern Mug",
+    imgSrc:
+        "/images/DnD/tavernMug.jpg",
+    description:
+        "Ceramic mug featuring iconic Dungeons & Dragons artwork, perfect for enjoying a beverage during game sessions or displaying as a collectible.",
+    price: 13.99,
+    updatedPrice: 12.99,
+    starRating: 4.5,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "DnD",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Rays Car Decal",
+    imgSrc:
+        "/images/baseball/raysSticker.jpg",
+    description:
+        " Weather-resistant Tampa Bay Rays car decal featuring the team's logo. Perfect for showing off team pride on your vehicle's window or bumper.",
+    price: 10.99,
+    updatedPrice: 8.99,
+    starRating: 3.2,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Rays Insulated Tumbler",
+    imgSrc:
+        "/images/baseball/raysCup.jpg",
+    description:
+        "Double-walled, insulated tumbler featuring the Tampa Bay Rays logo. Keeps beverages hot or cold for extended periods, ideal for game days or everyday use.",
+    price: 30.99,
+    updatedPrice: 29.99,
+    starRating: 4.4,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Rays Beach Towel",
+    imgSrc:
+        "/images/baseball/towel.jpg",
+    description:
+        "Vibrant Tampa Bay Rays beach towel featuring the team's logo and colors. Made of soft and absorbent cotton, perfect for lounging by the pool or at the beach.",
+    price: 22.99,
+    updatedPrice: 22.99,
+    starRating: 4.6,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Rays Ball Cap",
+    imgSrc:
+        "/images/hockey/raysCap.jpg",
+    description:
+        "Adjustable Tampa Bay Rays baseball cap featuring the team logo embroidered on the front. Made of durable cotton twill with a curved brim.",
+    price: 20.99,
+    updatedPrice: 19.99,
+    starRating: 4.5,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
+  {
+    _id: uuid(),
+    title: "Tampa Bay Rays Authentic Jersey",
+    imgSrc:
+        "/images/baseball/raysJersey.jpg",
+    description:
+        "Official Tampa Bay Rays authentic jersey with the team's colors and logo. Made of high-quality fabric, identical to what the players wear on the field.",
+    price: 139.99,
+    updatedPrice: 12.99,
+    starRating: 4.8,
+    size: "Regular",
+    inStock: true,
+    fastDelivery: true,
+    category: "Baseball",
+  },
+
 
 ];
